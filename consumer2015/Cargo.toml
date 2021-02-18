@@ -1,0 +1,10 @@
+[package]
+name = "consumer2015"
+version = "0.1.0"
+authors = ["bstrie <865233+bstrie@users.noreply.github.com>"]
+edition = "2015"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dependency2018 = { path = "../dependency2018" }
